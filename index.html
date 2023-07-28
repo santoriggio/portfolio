@@ -1,7 +1,21 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <meta http-equiv="refresh" content="0; url=./it/README_it.md" />
+  <meta charset="UTF-8">
+  <script>
+    var userLanguage = navigator.language || navigator.userLanguage;
+    var redirectUrl;
+
+    // Imposta l'URL di reindirizzamento in base alla lingua preferita dell'utente
+    if (userLanguage && userLanguage.startsWith("it")) {
+      redirectUrl = "./it/README_IT.md"; // Reindirizza alla versione italiana
+    } else {
+      redirectUrl = "./en/README_EN.md"; // Reindirizza alla versione inglese (o un'altra lingua di tua scelta)
+    }
+
+    // Esegui il reindirizzamento
+    window.location.href = redirectUrl;
+  </script>
 </head>
 <body>
 </body>
