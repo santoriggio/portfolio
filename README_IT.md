@@ -1,4 +1,4 @@
-# Portfolio di Santo Riggio 📘
+# 🇮🇹 Portfolio di Santo Riggio
 
 ## Informazioni personali
 
