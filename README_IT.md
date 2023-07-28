@@ -2,7 +2,7 @@
 
 ## Informazioni personali
 
-- **Professione**: React Native Junior Developer
+- **Professione**: React Native Developer
 - **Nome**: Santo Riggio
 - **Email**: info@santoriggio.it
 - **Telefono**: +39 3444298296
