@@ -6,11 +6,10 @@
     var userLanguage = navigator.language || navigator.userLanguage;
     var redirectUrl;
 
-    // Imposta l'URL di reindirizzamento in base alla lingua preferita dell'utente
     if (userLanguage && userLanguage.startsWith("it")) {
-      redirectUrl = "./it/README_IT.md"; // Reindirizza alla versione italiana
+      redirectUrl = "./it/README_IT.md"; 
     } else {
-      redirectUrl = "./en/README_EN.md"; // Reindirizza alla versione inglese
+      redirectUrl = "./en/README_EN.md";
     }
 
     // Esegui il reindirizzamento
