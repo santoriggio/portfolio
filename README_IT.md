@@ -20,7 +20,10 @@
 
 L'app che sto sviluppando permette di interfacciarsi con la piattaforma di Framework360. Sarà uno strumento potente che consentirà ai clienti di Framework360 di fornire ai consumatori un'app personalizzata con diversi template disponibili, tra cui Videocorsi, e-commerce, app per ristoranti, app per agenti di commercio e altro ancora. Saranno incluse 4 immagini relative ai Videocorsi per arricchire l'esperienza dell'utente.
 
-![App Framework360](link_immagine)
+<img src="./assets/customers360/home" width="200">
+![VideocourseDetails](assets/customers360/videocourseDetails.png){ width=200px }
+![Other](assets/customers360/other.png){ width=200px }
+![Settings](assets/customers360/settings.png){ width=200px }
 
 ## Competenze applicate:
 
