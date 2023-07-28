@@ -11,7 +11,7 @@
 
 ### Progetto in Sviluppo: App Customer360
 
-L'app che sto sviluppando permette di interfacciarsi con la piattaforma di Framework360. Sarà uno strumento potente che consentirà ai clienti di Framework360 di fornire ai consumatori un'app personalizzata con diversi template disponibili, tra cui Videocorsi, e-commerce, app per ristoranti, app per agenti di commercio e altro ancora. Saranno incluse 4 immagini relative ai Videocorsi per arricchire l'esperienza dell'utente.
+L'app che sto sviluppando permette di interfacciarsi con la piattaforma di Framework360. Sarà uno strumento potente che consentirà ai clienti di Framework360 di fornire ai consumatori un'app personalizzata con diversi template disponibili, tra cui Videocorsi, e-commerce, app per ristoranti, app per agenti di commercio e altro ancora. A seguire ci sono 4 immagini del template "Videocorsi" attualmente in sviluppo.
 
 <div align="center">
   <img src="assets/customers360/home.png" width="200">
