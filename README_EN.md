@@ -11,7 +11,7 @@
 
 ### Ongoing Project: Customer360 App
 
-The app I'm developing allows users to interact with the Framework360 platform. It will be a powerful tool that enables Framework360's customers to provide consumers with a customized app using various available templates, including video courses, e-commerce, restaurant apps, sales agents' apps, and more. It will include 4 images related to video courses to enhance the user experience.
+The app I'm developing allows users to interface with the Framework360 platform. It will be a powerful tool that will enable Framework360 customers to provide consumers with a customized app using various available templates, including Video Courses, Ecommerce, Restaurant Apps, Sales Agent Apps, and more. Below are 4 images of the "Videocourses" template currently under development.
 
 <div align="center">
   <img src="assets/customers360/home.png" width="200">
