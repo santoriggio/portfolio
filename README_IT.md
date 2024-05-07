@@ -10,7 +10,7 @@
 ## Progetti
 
 
-### Progetto in sviluppo: BudgetBuddy
+### Progetti in sviluppo: BudgetBuddy
 
 BudgetBuddy è un'applicazione per la gestione delle finanze personali che offre una serie di funzionalità avanzate. Gli utenti possono creare "Spazi", ovvero raccolte di transazioni, ciascuna con il proprio resoconto, transazioni programmate, valute e report mensili dettagliati. Questi report sono filtrabili per utente, categoria, valuta e data, consentendo agli utenti di monitorare e analizzare le proprie finanze in modo completo e personalizzato.
 
@@ -19,13 +19,24 @@ BudgetBuddy offre anche funzionalità secondarie per migliorare l'esperienza del
 BudgetBuddy offre anche agli utenti la possibilità di inviare feedback direttamente dall'applicazione. Questo consente agli utenti di fornire consigli, suggerimenti o segnalare eventuali problematiche in modo rapido e diretto, contribuendo così a migliorare continuamente l'esperienza dell'applicazione.
 
 <div align="center">
-  <img src="assets/customers360/home.png" width="200">
-  <img src="assets/customers360/videocourseDetails.png" width="200">
-  <img src="assets/customers360/other.png" width="200">
-  <img src="assets/customers360/settings.png" width="200">
+  <img src="assets/budgetbuddy/home.png" width="200">
+  <img src="assets/budgetbuddy/space_details.png" width="200">
+  <img src="assets/budgetbuddy/report.png" width="200">
+  <img src="assets/budgetbuddy/other.png" width="200">
 </div>
 
-### Progetto in Sviluppo: App Customer360
+#### Competenze applicate:
+ - Completo sviluppo in ReactNative
+ - Interfacciamento con strumenti di Firebase
+ - Pagamenti IAP con RevenueCat
+ - Implementazione di login e registrazione con i social
+ - Gestione di ambienti separati per sviluppo e produzione
+ - Notifiche Push
+ - Completo supporto per il multilingua
+ - Aggiornamento in tempo reale dei dati
+
+
+### Progetti in Sviluppo: App Customer360
 
 L'app che sto sviluppando permette di interfacciarsi con la piattaforma di Framework360. Sarà uno strumento potente che consentirà ai clienti di Framework360 di fornire ai consumatori un'app personalizzata con diversi template disponibili, tra cui Videocorsi, e-commerce, app per ristoranti, app per agenti di commercio e altro ancora. A seguire ci sono 4 immagini del template "Videocorsi" attualmente in sviluppo.
 
@@ -36,7 +47,7 @@ L'app che sto sviluppando permette di interfacciarsi con la piattaforma di Frame
   <img src="assets/customers360/settings.png" width="200">
 </div>
 
-### Competenze applicate:
+#### Competenze applicate:
 
 - React Native
 - Interfacciamento con API
