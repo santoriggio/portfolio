@@ -29,7 +29,13 @@ export default function IndexPage() {
 
   return (
     <Screen headerShown={false} title="Portfolio">
-      <ScrollView contentContainerStyle={{ padding: theme.spacing.xl }}>
+      <ScrollView
+        contentContainerStyle={{
+          flexGrow: 1,
+          justifyContent: "center",
+          padding: theme.spacing.xl,
+        }}
+      >
         <ParticleBackground />
         <View
           style={{
@@ -52,30 +58,27 @@ export default function IndexPage() {
                 fontFamily: "monospace",
               }}
             >
-              Mi chiamo{" "}
+              {translate("preview:introStart")}
               <Typography
                 size={isSmall ? "xl" : "xxl"}
                 color="primary"
                 style={{ fontFamily: "monospace", fontWeight: "bold" }}
-              >
-                Santo
-              </Typography>
-              , sono un{" "}
+                tx="preview:name"
+              />
+              {translate("preview:introMiddle")}
               <Typography
                 size={isSmall ? "xl" : "xxl"}
                 color="primary"
                 style={{ fontFamily: "monospace", fontWeight: "bold" }}
-              >
-                Software Developer
-              </Typography>{" "}
-              professionista specializzato nello sviluppo di{" "}
+                tx="preview:title"
+              />
+              {translate("preview:introEnd")}
               <Typography
                 size={isSmall ? "xl" : "xxl"}
-                style={{ fontFamily: "monospace", fontWeight: "bold" }}
                 color="primary"
-              >
-                applicazioni.
-              </Typography>
+                style={{ fontFamily: "monospace", fontWeight: "bold" }}
+                tx="preview:field"
+              />
             </Typography>
             <View
               style={{
@@ -116,6 +119,7 @@ export default function IndexPage() {
 
 import Particles, { initParticlesEngine } from "@tsparticles/react";
 import { loadSlim } from "@tsparticles/slim";
+import { translate } from "@/i18n";
 
 const ParticleBackground = () => {
   const { theme } = useAppTheme();
@@ -157,10 +161,10 @@ const ParticleBackground = () => {
         },
         particles: {
           color: {
-            value: theme.colors.text,
+            value: theme.colors.primary,
           },
           links: {
-            color: theme.colors.text,
+            color: theme.colors.primary,
             distance: 150,
             enable: true,
             opacity: 0.5,

@@ -4,7 +4,7 @@ export const colors = {
   transparent: "rgba(0, 0, 0, 0)",
 
   // Main palette
-  primary: "#007AFF",
+  primary: "#FF7E29",
   secondary: "#500065",
 
   // Text and backgrounds

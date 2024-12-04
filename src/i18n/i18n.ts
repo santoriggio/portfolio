@@ -6,12 +6,13 @@ import "intl-pluralrules";
 
 // if English isn't your default language, move Translations to the appropriate language file.
 import en, { Translations } from "./locales/en";
+import it from "./locales/it";
 
 const fallbackLocale = "en-US";
 
 const systemLocales = Localization.getLocales();
 
-const resources = { en };
+const resources = { en, it };
 const supportedTags = Object.keys(resources);
 
 // Checks to see if the device locale matches any of the supported locales
