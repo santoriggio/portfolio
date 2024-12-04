@@ -1,0 +1,56 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Banner/> renders correcly 1`] = `
+<View
+  style={
+    {
+      "alignItems": "center",
+      "borderColor": "#17A2B8",
+      "borderRadius": 12,
+      "borderWidth": 2,
+      "flexDirection": "row",
+      "overflow": "hidden",
+      "padding": 12,
+    }
+  }
+>
+  <View
+    style={
+      [
+        {
+          "bottom": 0,
+          "left": 0,
+          "position": "absolute",
+          "right": 0,
+          "top": 0,
+        },
+        {
+          "backgroundColor": "#17A2B8",
+          "opacity": 0.15,
+        },
+      ]
+    }
+  />
+  <Text
+    style={
+      [
+        {},
+        {
+          "color": "#333333",
+          "fontFamily": "spaceGroteskRegular",
+          "fontSize": 16,
+          "lineHeight": 24,
+        },
+        undefined,
+        undefined,
+        {
+          "color": "#17A2B8",
+        },
+        {},
+        undefined,
+      ]
+    }
+    testID="message"
+  />
+</View>
+`;

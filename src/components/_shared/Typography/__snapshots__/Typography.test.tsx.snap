@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Typography/> renders correcly 1`] = `
+<Text
+  style={
+    [
+      {},
+      {
+        "color": "#333333",
+        "fontFamily": "spaceGroteskRegular",
+        "fontSize": 16,
+        "lineHeight": 24,
+      },
+      undefined,
+      undefined,
+      undefined,
+      {},
+      undefined,
+    ]
+  }
+/>
+`;
